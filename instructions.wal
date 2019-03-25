@@ -1,0 +1,38 @@
+#Wallab documentation;
+    #How to define a variable
+        #1. State your type (i, f or s)
+        #2. create a chalk (|)
+        #3. State your variable name;
+        #4. Equal sign (=)
+        #5. Function or value (do not use "" when typing strings, only '')
+        #Example1: i|num = 3
+        #Example2: s|word = 'hello'
+    #How to call a function
+        #1. Type the variable name (if it is system function then put w)
+        #2. Slash (/)
+        #3. Function name and parentheses
+        #Example1: num/print() (print the variable num)
+        #Example2: w/Input()  (system function for taking input)
+        #Ps. you can use many functions in a row e.g num/incr()/print(), this increments a number by one and then prints
+
+    #Functions
+        #Wallab system functions:
+            #w/Input()
+                #takes no values and gets input from console
+            #w/Arit(string)
+                #takes in string where you can use +,-,/,* or % to calculate values
+                #Example1: w/Arit(num1 + num2)
+                #Example2: w/Arit(5 % 4)
+                #Example3: w/Arit(num1*4)
+        #Integer functions:
+            #(n will be used as an example integer)
+            #n/incr() - increments n by one
+            #n/print() - prints n
+        #Float functions:
+            #(x will be used as an example float)
+            #x/incr() - increments x by one
+            #x/print() = prints x
+        #String functions:
+            #(word will be used as an example string)
+            #word/upper() - returns word with capital letters
+            #word/print() - prints word
